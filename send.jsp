@@ -22,7 +22,7 @@
 	BufferedWriter writer = null;
 	try{
 		String filePath = application.getRealPath("/WEB-INF/text.txt");
-		writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filePath),"utf-8"));
+		writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(filePath,true),"utf-8"));
 		//PrintWriter pw=new PrintWriter(writer,true);
 		writer.write(text+",");
 		writer.flush();

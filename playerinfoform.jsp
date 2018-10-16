@@ -191,7 +191,7 @@
 	String[] Array = tmp.split(",");
 	for(int i=0; i<Array.length; i++){
 %>
-		<%=Array[i]+"\n"%>
+		<%=(Array.length-i)+". "+Array[i]+"</br>"%>
 <% 
 	}
 %>

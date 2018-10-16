@@ -37,8 +37,8 @@
 		height:50px;
 		border:0px;
 		border:3px solid #29088A;
-		background-color:white;
-		color:#29088A;
+		background-color:#29088A;
+		color:white;
 	}
 	div#goods input[type="button"]:hover{
 		background-color:#29088A;
